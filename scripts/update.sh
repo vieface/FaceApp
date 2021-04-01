@@ -5,9 +5,9 @@
 # * Copyright (c) 2021 ai face. All rights reserved.
 # **/
 
-SOURCE="https://github.com/vieface/FR-Public.git"
-PROJECT_NAME="FR-Public"
-PROJECT_NAME_OLD="FR-Public_Old"
+SOURCE="https://github.com/vieface/FaceApp.git"
+PROJECT_NAME="FaceApp"
+PROJECT_NAME_OLD="FaceApp_Old"
 STATUS_OK=0
 
 cd ..
