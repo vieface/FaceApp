@@ -20,5 +20,5 @@ To can run project, the first install file: install.sh
 To run project pls run scripts: run.py 
 
 ```
-python3 run.py --video_src 3
+python3 run.py --video_src 1
 ```
