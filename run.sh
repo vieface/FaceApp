@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
- 
-python3 run.py --video_src 1
+
+cd /home/viebox/FaceApp
+python3 run.py 
