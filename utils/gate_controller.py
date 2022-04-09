@@ -38,7 +38,7 @@ class GateController:
         if time.time() - self.time_init > 5 and self.connected:
             try:
                 self.ser.write(str.encode('ON'))
-                time.sleep(1)
+                time.sleep(2)
                 self.ser.write(str.encode('OFF'))
             except:
                 pass 
