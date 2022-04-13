@@ -2,4 +2,4 @@
 
 cd /home/viebox/FaceApp
 make
-python3 run.py 
+sudo python3 run.py 
