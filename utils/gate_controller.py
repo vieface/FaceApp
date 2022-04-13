@@ -21,7 +21,7 @@ class GateController:
         self.connected = True 
         try:
             self.ser = serial.Serial(self.port, self.baudrate)
-            self.ser.write(str.encode('OFF'))
+            self.ser.write(str.encode('CLOSE'))
             print("Connected with default port")
         except Exception as e:
             print(e)
@@ -37,9 +37,9 @@ class GateController:
        
         if time.time() - self.time_init > 5 and self.connected:
             try:
-                self.ser.write(str.encode('ON'))
+                self.ser.write(str.encode('OPEN'))
                 time.sleep(2)
-                self.ser.write(str.encode('OFF'))
+                self.ser.write(str.encode('CLOSE'))
             except:
                 pass 
             self.time_init = time.time()
