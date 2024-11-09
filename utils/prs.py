@@ -1,16 +1,16 @@
-url_recognition = "http://117.6.133.148:9000/recognition"
+url_recognition = "http://113.22.56.109:9000/recognition"
  
-url_mode = 'http://117.6.133.148:9000/camid2mode/{}'
+url_mode = 'http://113.22.56.109:9000/camid2mode/{}'
     
-url_mac2mode = "http://117.6.133.148:9000/mac2mode/{}"
+url_mac2mode = "http://113.22.56.109:9000/mac2mode/{}"
 
-url_avt = "http://117.6.133.148:3000/img/avatar/{}.jpg"
+url_avt = "http://113.22.56.109:6789/img/avatar/{}.jpg"
 
-url_status = "http://117.6.133.148:9000/status"
+url_status = "http://113.22.56.109:9000/status"
 
-url_cam = "http://117.6.133.148:3000/v1/cameras/{}"
+url_cam = "http://113.22.56.109:6789/v1/cameras/{}"
 
-url_new_user = 'http://117.6.133.148:9000/faces'
+url_new_user = 'http://113.22.56.109:9000/faces'
 # api
 headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 
@@ -24,7 +24,7 @@ caffe = 'model/slim-320.caffemodel'
 
 api_key = '1777e1c6994c63ad16f9ae8012ee46f1'
 
-url_log  = 'http://117.6.133.148:9000/log'
+url_log  = 'http://113.22.56.109:9000/log'
 
 version =  '1.1'
 
